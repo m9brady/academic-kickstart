@@ -1,48 +1,44 @@
-+++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+---
+# An instance of the Featurette widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: featurette
 
-title = "Skills"
-subtitle = ""
+# This file represents a page section.
+headless: true
 
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# Order that this section appears on the page.
+weight: 30
 
-[[feature]]
-  icon = "globe-americas"
-  icon_pack = "fas"
-  name = "GIS"
+title: Skills
+subtitle:
 
-[[feature]]
-  icon = "satellite"
-  icon_pack = "fas"
-  name = "Satellite Remote Sensing"
+feature:
+- icon: globe-americas
+  icon_pack: fas
+  name: GIS
+
+feature:
+- icon: satellite
+  icon_pack: fas
+  name: Satellite Remote Sensing
   
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
+feature:
+- icon: python
+  icon_pack: fab
+  name: Python
   
 # Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
+#- icon: ":smile:"
+#  icon_pack: "emoji"
+#  name: "Emojiness"
+#  description: "100%"  
 
 # Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
+# Place your custom SVG icon in `assets/media/icons/`.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# [[feature]]
-#  icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
-
-+++
+# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
+#- icon: "your-custom-icon-name"
+#  icon_pack: "custom"
+#  name: "Surfing"
+#  description: "90%"
+---
