@@ -4,7 +4,7 @@
 title: "Spring melt pond fraction in the Canadian Arctic Archipelago predicted from RADARSAT-2"
 authors: ["Stephen Edward Lee Howell", "Randall Kenneth Scharien", "Jack Landy", "Mike Brady"]
 date: 2020-07-02
-doi: "10.5194/tc-2020-171"
+doi: "10.5194/tc-14-4675-2020"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-08-09T11:26:23-04:00
@@ -13,7 +13,7 @@ publishDate: 2020-08-09T11:26:23-04:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "The Cryosphere"
@@ -26,7 +26,7 @@ summary: ""
 
 tags: []
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://tc.copernicus.org/preprints/tc-2020-171/tc-2020-171.pdf
+url_pdf: https://tc.copernicus.org/articles/14/4675/2020/tc-14-4675-2020.pdf
 url_code:
 url_dataset:
 url_poster:
@@ -49,7 +49,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Figure 3"
   focal_point: ""
   preview_only: false
 

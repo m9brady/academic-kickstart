@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The Dynamic Response of Sea Ice to Warming in the Canadian Arctic Archipelago"
-authors: ["Stephen E. L. Howell", "Mike Brady"]
-date: 2019-11-13
-doi: "10.1029/2019GL085116"
+title: "First Observations of a Transient Polynya in the Last Ice Area North of Ellesmere Island"
+authors: ["G.W.K. Moore", "Stephen Howell", "Mike Brady"]
+date: 2021-08-18
+doi: "10.1002/essoar.10507510.1"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-08-09T10:35:43-04:00
+publishDate: 2022-01-16T15:04:00-04:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +19,7 @@ publication_types: ["2"]
 publication: "Geophysical Research Letters"
 publication_short: "GRL"
 
-abstract: "Ice arches in the Canadian Arctic Archipelago (CAA) block the inflow of Arctic Ocean ice for the majority of the year. A 22 year record (1997–2018) of Arctic Ocean‐CAA ice exchange was used to investigate the effect of warming on CAA sea ice dynamics. Larger ice area flux values were associated with longer flow duration and faster ice speed facilitated by increased open water leeway from the CAA's transition to a younger and thinner ice regime, which together have contributed to a significant ice area flux increase ($103 km^2 year^{-1}$) from Arctic Ocean into the northern CAA from 1997 to 2018. Remarkably, the 2016 Arctic Ocean ice area flux into the CAA ($161 × 103 km^2$) was 7 times greater than the 1997–2018 average ($23 × 103 km^2$) and almost double the 2007 ice area flux into Nares Strait ($87 × 103 km^2$). Continued warming may result in the CAA becoming a larger outlet for Arctic Ocean ice area loss."
+abstract: "The area to the north of Ellesmere Island and Greenland contains the Arctic's thickest ice and it is predicted to be the last to lose its perennial ice, thus providing an important refuge for ice-dependent species. There is however evidence that this Last Ice Area is, like the entire Arctic, undergoing rapid changes that may reduce its suitability as a refuge. During May 2020, a polynya developed to the north of Ellesmere Island in a region where there are no reports of a previous development. We use a variety of remotely sensed data as well as an atmospheric reanalysis to document the evolution and the dynamics responsible for the polynya. In particular, we argue that anomalously strong divergent winds associated with an intense and long-lived Arctic anti-cyclone contributed to the development of the polynya as well as similar previously unreported events in May 1988 and 2004."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,9 +36,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019GL085116
-url_code:
-url_dataset:
+url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2021GL095099
+url_code: 
+url_dataset: 
 url_poster:
 url_project:
 url_slides:
@@ -49,7 +49,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Figure 1"
+  caption: ""
   focal_point: ""
   preview_only: false
 

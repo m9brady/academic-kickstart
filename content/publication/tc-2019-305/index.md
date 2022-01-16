@@ -26,7 +26,7 @@ summary: ""
 
 tags: []
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://tc.copernicus.org/preprints/tc-2019-305/tc-2019-305.pdf
+url_pdf: https://tc.copernicus.org/articles/14/4323/2020/tc-14-4323-2020.pdf
 url_code: https://github.com/kingjml/SMP-Sea-Ice#readme
 url_dataset:
 url_poster:
@@ -49,8 +49,8 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Figure 1. RADARSAT-2 data and products © MacDonald, Dettwiler and Associates Ltd. (2019). All rights reserved. RADARSAT is an official trademark of the Canadian Space Agency"
+  focal_point: "Left"
   preview_only: false
 
 # Associated Projects (optional).

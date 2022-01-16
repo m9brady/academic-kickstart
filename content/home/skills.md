@@ -16,13 +16,9 @@ feature:
 - icon: globe-americas
   icon_pack: fas
   name: GIS
-
-feature:
 - icon: satellite
   icon_pack: fas
   name: Satellite Remote Sensing
-  
-feature:
 - icon: python
   icon_pack: fab
   name: Python

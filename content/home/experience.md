@@ -29,8 +29,6 @@ experience:
   date_start: '2015-02-01'
   date_end: ''
   description: ''
-
-experience:
 - title: GIS Technician Student
   company: Regional Municipality of York
   company_url: https://www.york.ca/
@@ -38,8 +36,6 @@ experience:
   date_start: '2011-01-01'
   date_end: '2011-08-31'
   description: ''
-
-experience:
 - title: Geospatial Data Technician
   company: Environment Canada
   company_url: https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/latest-conditions.html
