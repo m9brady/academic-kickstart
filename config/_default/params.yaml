@@ -42,10 +42,6 @@ contact_links:
     icon_pack: fab
     name: DM Me
     link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
   - icon: keybase
     icon_pack: fab
     name: Chat on Keybase
@@ -70,14 +66,15 @@ main_menu:
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
-address_format: en-us
+address_format: en-ca
 
 # Site features
 
 highlight: true
 highlight_languages:
+  - python
   - r
-math: false
+math: true
 diagram: false
 privacy_pack: false
 edit_page:
