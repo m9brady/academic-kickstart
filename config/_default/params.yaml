@@ -71,9 +71,8 @@ address_format: en-ca
 # Site features
 
 highlight: true
-highlight_languages:
-  - python
-  - r
+highlight_languages: ['python', 'r']
+higlight_style: 'Rainbow'
 math: true
 diagram: false
 privacy_pack: false

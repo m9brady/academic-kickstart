@@ -28,8 +28,9 @@ image:
 projects: []
 ---
 Started as a quick response on Twitter
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr">This seems to do the trick? <br><br>gdal_translate -of GTiff -ot Byte -a_ullr -675000 -3387500 887500 -575000 -a_srs EPSG:3411 -a_nodata 255 NETCDF:&quot;<a href="https://t.co/pbBrlEEfZs">https://t.co/pbBrlEEfZs</a>&quot;:Albedo MODGRNLD.2019365.0105.swath.v01.1.tif</p>&mdash; Mike Brady (@m2brady) <a href="https://twitter.com/m2brady/status/1377768865522978824?ref_src=twsrc%5Etfw">April 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< tweet 1377768865522978824 >}}
 
 ... but then formalized in a Gist:
 
-<script src="https://gist.github.com/m9brady/652d8178a27092ec5398de3558ed9714.js"></script>
+{{< gist m9brady 652d8178a27092ec5398de3558ed9714 >}}
