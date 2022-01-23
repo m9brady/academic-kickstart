@@ -5,7 +5,7 @@
 
 title: Mike Brady # Website name
 baseurl: 'https://m9brady.github.io/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Mike Brady'
+copyright: '© {year} Mike Brady' # Footer text, e.g. '© {year} Mike Brady'
 
 ############################
 ## LANGUAGE
@@ -59,7 +59,7 @@ markup:
   _merge: deep
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
 related:
   threshold: 80
   includeNewer: true

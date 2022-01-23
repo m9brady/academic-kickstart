@@ -17,6 +17,7 @@ git push origin master
 
 # cleanup generated site
 cd ..
-find public -path public/.git -prune -o -exec rm -rf {} \; 2> /dev/null
+#find public -path public/.git -prune -o -exec rm -rf {} \; 2> /dev/null
+git submodule update --recursive --remote
 echo 'deployment complete'
 
