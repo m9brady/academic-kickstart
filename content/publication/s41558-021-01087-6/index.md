@@ -4,7 +4,7 @@
 title: "Impact of 1, 2 and 4 °C of global warming on ship navigation in the Canadian Arctic"
 authors: ["Lawrence R. Mudryk", "Jackie Dawson", "Stephen E. L. Howell", "Chris Derksen", "Thomas A. Zagnon", "Mike Brady"]
 date: 2021-07-08
-doi: "10.5194/tc-2021-223"
+doi: "10.1038/s41558-021-01087-6"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-01-16T15:29:23-04:00
@@ -17,7 +17,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Nature Climate Change"
-publication_short: ""
+publication_short: "Nat. Clim. Chang."
 
 abstract: "Climate change-driven reductions in sea ice have facilitated increased shipping traffic volumes across the Arctic. Here, we use climate model simulations to investigate changing navigability in the Canadian Arctic for major trade routes and coastal community resupply under 1, 2 and 4 °C of global warming above pre-industrial levels, on the basis of operational Polar Code regulations. Profound shifts in ship-accessible season length are projected across the Canadian Arctic, with the largest increases in the Beaufort region (100–200 d at 2 °C to 200–300 d at 4 °C). Projections along the Northwest Passage and Arctic Bridge trade routes indicate 100% navigation probability for part of the year, regardless of vessel type, above 2 °C of global warming. Along some major trade routes, substantial increases to season length are possible if operators assume additional risk and operate under marginally unsafe conditions. Local changes in accessibility for maritime resupply depend strongly on community location."
 
@@ -49,6 +49,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
+  placement: 1
   caption: "Figure 1. Trans-Arctic and Canadian shipping routes."
   focal_point: "Top"
   preview_only: false

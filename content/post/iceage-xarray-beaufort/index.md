@@ -18,7 +18,7 @@ draft: false
 image:
   caption: ""
   focal_point: "Smart"
-  preview_only: false
+  preview_only: true
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -27,6 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{< figure src="output_32_0.jpg" caption=":point_up: **End result of the following code snippets** :point_down:">}}
 
 Checking out a really neat historical sea ice age dataset from NSIDC: 
 https://nsidc.org/data/nsidc-0611
@@ -107,7 +108,7 @@ ds['age_of_sea_ice']
 
 ```python
 print('Approximate size of uncompressed dataset: %.2f MB' % (
-        ds.nbytes / 1024**2
+    ds.nbytes / 1024**2
 ))
 ```
 
