@@ -19,7 +19,7 @@ jobs:
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@v1.12.0
       env:
-        HUGO_VERSION: 0.83.1
+        HUGO_VERSION: 0.89.4
         HUGO_EXTENDED: true
         TARGET_REPO: m9brady/m9brady.github.io
         TOKEN: ${{ secrets.GHP_TOKEN }}
