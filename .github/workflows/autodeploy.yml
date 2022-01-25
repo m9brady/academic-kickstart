@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Autodeploy
 
 on:
   push:
@@ -6,20 +6,34 @@ on:
       - master
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-    - name: Checkout master
-      uses: actions/checkout@v2.4.0
-      with:
-        submodules: true
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
 
-    - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@v1.12.0
-      env:
-        HUGO_VERSION: 0.89.4
-        HUGO_EXTENDED: true
-        TARGET_REPO: m9brady/m9brady.github.io
-        TOKEN: ${{ secrets.GHP_TOKEN }}
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.89.4'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          personal_token: ${{ secrets.GHP_TOKEN }}
+          external_repository: m9brady/m9brady.github.io
+          publish_branch: master
+          publish_dir: ./public
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: ${{ github.event.head_commit.timestamp }}
