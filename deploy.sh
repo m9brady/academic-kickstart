@@ -20,3 +20,4 @@ cd ..
 #find public -path public/.git -prune -o -exec rm -rf {} \; 2> /dev/null
 git submodule update --recursive --remote
 echo 'deployment complete'
+
