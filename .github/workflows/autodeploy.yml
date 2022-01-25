@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           personal_token: ${{ secrets.GHP_TOKEN }}
           external_repository: m9brady/m9brady.github.io
