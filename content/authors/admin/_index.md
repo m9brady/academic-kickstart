@@ -47,6 +47,9 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Mike_Brady7
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=8KVTsSwAAAAJ
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0001-8263-0951
