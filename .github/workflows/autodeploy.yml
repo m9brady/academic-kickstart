@@ -3,7 +3,7 @@ name: Autodeploy
 on:
   push:
     branches:
-      - master
+      - m9brady
 
 jobs:
   deploy:
@@ -27,11 +27,11 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/m9brady' }}
         with:
           personal_token: ${{ secrets.GHP_TOKEN }}
           external_repository: m9brady/m9brady.github.io
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./public
           force_orphan: true
           user_name: 'github-actions[bot]'
